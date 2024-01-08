@@ -1,0 +1,39 @@
+.navbar {
+    background-color: none;
+}
+
+#particles-js {
+    position: absolute;
+    height: 100vh;
+}
+
+.bg-lightgray {
+    background-color: lightgray;
+}
+
+.bg-F7F7F7 {
+    background-color: #F7F7F7;
+}
+
+.shadow-custom:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+.cloud-rotate {
+    rotate: 180deg;
+}
+
+.last-margin {
+    margin-bottom: 150px;
+}
+
+@media only screen and (max-width: 991px) {
+    .hero-container {
+        flex-direction: column-reverse;
+        padding: 40px;
+    }
+
+    .hero-profile-container {
+        margin-top: 40px;
+    }
+}
